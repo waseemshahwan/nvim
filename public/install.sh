@@ -14,7 +14,7 @@ fi
 
 # Get config from Github
 cd $(mktemp -d)
-git clone git@github.com:waseemshahwan/nvim 
+git clone https://github.com/waseemshahwan/nvim 
 cp -r nvim/config ~/.config/nvim
 
 # Run the necessary post-installation commands
